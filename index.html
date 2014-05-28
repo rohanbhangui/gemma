@@ -6,8 +6,8 @@
   <title>Gemma Themeforest Theme</title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="scripts/jquery-1.10.2.js"></script>
-  <script type="text/javascript" src="scripts/jquery-migrate-1.1.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.mousewheel.js"></script>
 
   <script type="text/javascript" src="scripts/index.js"></script>
   <link rel="stylesheet" media="screen" type="text/css" href="css/index.css"/>
@@ -16,26 +16,46 @@
 
 </head>
 <body>
-  <nav id="main-menu" dir="rtl">
+  <nav id="main-menu">
     <ul>
-      <li>Welcome</li>
-      <li>Our Portfolio</li>
-      <li>About Us</li>
-      <li>Contact Us</li>
+      <li data-link="splash" class="active">
+        <span class="nav-text">Welcome</span>
+        <span class="nav-icon"><!-- &#xf111; --></span>
+      </li>
+      <li data-link="intro">
+        <span class="nav-text">Introduction</span>
+        <span class="nav-icon"><!-- &#xf111; --></span>
+      </li>
+      <li data-link="portfolio">
+        <span class="nav-text">Our Portfolio</span>
+        <span class="nav-icon"><!-- &#xf111; --></span>
+      </li>
+      <li data-link="about">
+        <span class="nav-text">About Us</span>
+        <span class="nav-icon"><!-- &#xf111; --></span>
+      </li>
+      <li data-link="contact">
+        <span class="nav-text">Contact Us</span>
+        <span class="nav-icon"><!-- &#xf111; --></span>
+      </li>
     </ul>
   </nav>
   <section id="splash">
-
+    <h1>Splash</h1>
   </section>
   <header>
   </header>
   <section id="intro">
+    <h1>Introduction</h1>
   </section>
   <section id="portfolio">
+    <h1>Portfolio</h1>
   </section>
   <section id="about">
+    <h1>About</h1>
   </section>
   <section id="contact">
+    <h1>Contact</h1>
   </section>
   <footer>
   </footer>
