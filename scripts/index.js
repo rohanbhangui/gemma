@@ -13,14 +13,22 @@ $(document).ready(function () {
     $(window).scrollTop(0);
   });
 
-/*  if(Math.floor($(window).scrollTop()/$(window).height()) == 0)
+  var menuColor = "#fff";
+
+  if($(window).scrollTop()/$(window).height() > 0.5)
   {
-    $("#main-menu li span.nav-text").css("color", "#fff");
-    $("#main-menu li span.nav-icon").css("border", "0px solid #fff");
-    $("#main-menu li span.nav-icon").css("background", "#fff");
-    $("#main-menu li.active span.nav-icon").css("border", "1px solid #fff");
-    $("#main-menu li.active span.nav-icon").css("background", "none");
-  }*/
+    menuColor = "#666";
+  }
+  else
+  {
+    menuColor = "#fff";
+  }
+
+  $("#main-menu li span.nav-text").css("color", menuColor);
+  $("#main-menu li span.nav-icon").css("border", "0px solid " + menuColor);
+  $("#main-menu li span.nav-icon").css("background", menuColor);
+  $("#main-menu li.active span.nav-icon").css("border", "1px solid " + menuColor);
+  $("#main-menu li.active span.nav-icon").css("background", "none");
 
   var scrollTopAmount = 1;
 
@@ -31,22 +39,22 @@ $(document).ready(function () {
         active.addClass('active');
     }
 
-/*    if(Math.floor($(window).scrollTop()/$(window).height()) == 0)
+    console.log($(window).scrollTop()/$(window).height())
+
+    if($(window).scrollTop()/$(window).height() > 0.5)
     {
-      $("#main-menu li span.nav-text").css("color", "#fff");
-      $("#main-menu li span.nav-icon").css("border", "0px solid #fff");
-      $("#main-menu li span.nav-icon").css("background", "#fff");
-      $("#main-menu li.active span.nav-icon").css("border", "1px solid #fff");
-      $("#main-menu li.active span.nav-icon").css("background", "none");
+      menuColor = "#666";
     }
     else
     {
-      $("#main-menu li span.nav-text").css("color", "#999");
-      $("#main-menu li span.nav-icon").css("border", "0px solid #999");
-      $("#main-menu li span.nav-icon").css("background", "#999");
-      $("#main-menu li.active span.nav-icon").css("border", "1px solid #999");
-      $("#main-menu li.active span.nav-icon").css("background", "none");
-    }*/
+      menuColor = "#fff";
+    }
+
+    $("#main-menu li span.nav-text").css("color", menuColor);
+    $("#main-menu li span.nav-icon").css("border", "0px solid " + menuColor);
+    $("#main-menu li span.nav-icon").css("background", menuColor);
+    $("#main-menu li.active span.nav-icon").css("border", "1px solid " + menuColor);
+    $("#main-menu li.active span.nav-icon").css("background", "none");
 
   });
 
