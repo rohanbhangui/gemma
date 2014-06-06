@@ -17,7 +17,7 @@ $(document).ready(function () {
 
   if($(window).scrollTop()/$(window).height() > 0.5)
   {
-    menuColor = "#666";
+    menuColor = "#555";
   }
   else
   {
@@ -43,7 +43,7 @@ $(document).ready(function () {
 
     if($(window).scrollTop()/$(window).height() > 0.5)
     {
-      menuColor = "#666";
+      menuColor = "#555";
     }
     else
     {
