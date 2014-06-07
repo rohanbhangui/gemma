@@ -147,7 +147,7 @@ section:not(#intro) {
 
 #main-menu li span.nav-text {
     right: 17px;
-    top: 2.5px;
+    top: 3.5px;
     opacity: 0;
     font-size: 10pt;
     position: absolute;
@@ -209,18 +209,17 @@ section:not(#intro) {
     padding-top: 35px;
 }
 
-#devices {
-    max-width: 1200px;
-    margin: auto;
-}
-
 #devices-img {
-    width: 50%;
+/*    border: 1px solid #ff0000;*/
+    margin-left: -15%;
+    width: 80%;
+    margin-top: 15%;
 }
 
 #intro #items-container {
     max-width: 1200px;
     margin: auto;
+/*    display: none;*/
 }
 
 #intro #items-container .item {
