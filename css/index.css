@@ -8,47 +8,47 @@
 
 @font-face {
     font-family: 'OpenSansLight';
-    src: url('/font/OpenSansLight/OpenSansLight.eot');
-    src: url('/font/OpenSansLight/OpenSansLight.eot?#iefix') format('embedded-opentype'),
-    url('/font/OpenSansLight/OpenSansLight.woff') format('woff'),
-    url('/font/OpenSansLight/OpenSansLight.ttf')  format('truetype'),
-    url('/font/OpenSansLight/OpenSansLight.svg#OpenSansLight') format('svg');
+    src: url('font/OpenSansLight/OpenSansLight.eot');
+    src: url('font/OpenSansLight/OpenSansLight.eot?#iefix') format('embedded-opentype'),
+    url('font/OpenSansLight/OpenSansLight.woff') format('woff'),
+    url('font/OpenSansLight/OpenSansLight.ttf')  format('truetype'),
+    url('font/OpenSansLight/OpenSansLight.svg#OpenSansLight') format('svg');
 }
 
 @font-face {
     font-family: 'OpenSansRegular';
-    src: url('/font/OpenSansRegular/OpenSansRegular.eot');
-    src: url('/font/OpenSansRegular/OpenSansRegular.eot?#iefix') format('embedded-opentype'),
-    url('/font/OpenSansRegular/OpenSansRegular.woff') format('woff'),
-    url('/font/OpenSansRegular/OpenSansRegular.ttf')  format('truetype'),
-    url('/font/OpenSansRegular/OpenSansRegular.svg#OpenSansRegular') format('svg');
+    src: url('font/OpenSansRegular/OpenSansRegular.eot');
+    src: url('font/OpenSansRegular/OpenSansRegular.eot?#iefix') format('embedded-opentype'),
+    url('font/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+    url('font/OpenSansRegular/OpenSansRegular.ttf')  format('truetype'),
+    url('font/OpenSansRegular/OpenSansRegular.svg#OpenSansRegular') format('svg');
 }
 
 @font-face {
     font-family: 'OpenSansSemiBold';
-    src: url('/font/OpenSansSemiBold/OpenSansSemiBold.eot');
-    src: url('/font/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix') format('embedded-opentype'),
-    url('/font/OpenSansSemiBold/OpenSansSemiBold.woff') format('woff'),
-    url('/font/OpenSansSemiBold/OpenSansSemiBold.ttf')  format('truetype'),
-    url('/font/OpenSansSemiBold/OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+    src: url('font/OpenSansSemiBold/OpenSansSemiBold.eot');
+    src: url('font/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix') format('embedded-opentype'),
+    url('font/OpenSansSemiBold/OpenSansSemiBold.woff') format('woff'),
+    url('font/OpenSansSemiBold/OpenSansSemiBold.ttf')  format('truetype'),
+    url('font/OpenSansSemiBold/OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
 }
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url('/font/FontAwesome/FontAwesome.eot');
-    src: url('/font/FontAwesome/FontAwesome.eot?#iefix') format('embedded-opentype'),
-    url('/font/FontAwesome/FontAwesome.woff') format('woff'),
-    url('/font/FontAwesome/FontAwesome.ttf')  format('truetype'),
-    url('/font/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
+    src: url('font/FontAwesome/FontAwesome.eot');
+    src: url('font/FontAwesome/FontAwesome.eot?#iefix') format('embedded-opentype'),
+    url('font/FontAwesome/FontAwesome.woff') format('woff'),
+    url('font/FontAwesome/FontAwesome.ttf')  format('truetype'),
+    url('font/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
 }
 
 @font-face {
     font-family: 'SimpleLineIcons';
-    src: url('/font/SimpleLineIcons/SimpleLineIcons.eot');
-    src: url('/font/SimpleLineIcons/SimpleLineIcons.eot?#iefix') format('embedded-opentype'),
-    url('/font/SimpleLineIcons/SimpleLineIcons.woff') format('woff'),
-    url('/font/SimpleLineIcons/SimpleLineIcons.ttf')  format('truetype'),
-    url('/font/SimpleLineIcons/SimpleLineIcons.svg#SimpleLineIcons') format('svg');
+    src: url('font/SimpleLineIcons/SimpleLineIcons.eot');
+    src: url('font/SimpleLineIcons/SimpleLineIcons.eot?#iefix') format('embedded-opentype'),
+    url('font/SimpleLineIcons/SimpleLineIcons.woff') format('woff'),
+    url('font/SimpleLineIcons/SimpleLineIcons.ttf')  format('truetype'),
+    url('font/SimpleLineIcons/SimpleLineIcons.svg#SimpleLineIcons') format('svg');
 }
 
 html, body {
