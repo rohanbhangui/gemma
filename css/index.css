@@ -87,6 +87,7 @@ section:not(#intro) {
 
 .p-content {
     font-size: 12pt;
+    line-height: 1.2;
     font-family:  "OpenSansRegular", Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
@@ -210,16 +211,25 @@ section:not(#intro) {
     padding-top: 35px;
 }
 
+#intro-text {
+    max-width: 600px;
+    float: right;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+
+#intro-text h2, #intro-text p {
+    text-align: left;
+}
+
 #devices-img {
-/*    border: 1px solid #ff0000;*/
-    margin-left: -15%;
-    width: 80%;
-    margin-top: 15%;
+    width: 40%;
+    margin-left: 5%;
 }
 
 #intro #items-container {
     max-width: 1200px;
-    margin: auto;
+    margin: 50px auto auto auto;
 /*    display: none;*/
 }
 
